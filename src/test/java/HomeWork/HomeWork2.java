@@ -205,7 +205,6 @@ Click Process button
 
        */
 
-
       WebElement userName= driver.findElement(By.cssSelector("#ctl00_MainContent_username"));
       userName.sendKeys("Tester");
       WebElement password= driver.findElement(By.xpath("//input[@type='password']"));
